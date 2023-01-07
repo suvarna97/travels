@@ -1,0 +1,10 @@
+<p>employeedashboard works!</p>
+<form [formGroup]="userform">
+    <label>Email</label>
+    <input type="text" placeholder="email here" formControlName="email">
+    <label>password</label>
+    <input type="text" placeholder="password here" formControlName="password">
+
+</form>
+<h2>{{today | date}}</h2>
+<h3>{{decimal |number :'7.9-12'}}</h3>
